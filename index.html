@@ -23,18 +23,21 @@
 		<legend>Vos coordonnées :</legend>
 		
 		<label for="nom">Nom :</label><br />
-		<input type="nom" name="nom" size="20" maxlength="40" id="nom" placeholder="Nom"/>
-		<small>Veuillez renseigner ce champ !</small><br />
+		<input type="nom" name="nom" id="nom" placeholder="Nom"/>
+		<span id="c1">Veuillez renseigner ce champ !</span><br />
+
 		<label for="prenom">Prenom :</label><br />
-		<input type="prenom" name="prenom" size="20" maxlength="40" id="pre" placeholder="Prenom"/>
-		<small>Veuillez renseigner ce champ !</small><br />
+		<input type="prenom" name="prenom" id="pre" placeholder="Prenom"/>
+		<span id="c2">Veuillez renseigner ce champ !</span><br />
+
 		<label for="motdepasse">Mot de passe :</label><br />
-		<input type="motdepasse" name="motdepasse" size="20" maxlength="40" id="mdp" placeholder="Mot de passe"/>
-		<small>Veuillez renseigner ce champ !</small><br />
+		<input type="motdepasse" name="motdepasse" id="mdp" placeholder="Mot de passe"/>
+		<span id="c3">Veuillez renseigner ce champ !</span><br />
+		<span id="c4">Mot de passe incorrecte</span>
 
 	</fieldset><br />
 
-	<input type="submit" value="Envoyer" onclick="validate()"/>
+	<input type="submit" value="Envoyer" id="envoyer" onclick="validate()"/>
 
 
 </form>
